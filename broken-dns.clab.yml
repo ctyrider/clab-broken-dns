@@ -1,0 +1,10 @@
+name: broken-dns
+prefix: ""
+topology:
+  nodes:
+    linux1:
+      kind: linux
+      image: ghcr.io/hellt/network-multitool 
+    linux2:
+      kind: linux
+      image: ghcr.io/hellt/network-multitool 

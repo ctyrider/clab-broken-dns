@@ -4,7 +4,7 @@ topology:
   nodes:
     linux1:
       kind: linux
-      image: ghcr.io/hellt/network-multitool 
+      image: alpine:latest
     linux2:
       kind: linux
-      image: ghcr.io/hellt/network-multitool 
+      image: alpine:latest
